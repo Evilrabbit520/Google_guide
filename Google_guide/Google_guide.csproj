@@ -89,6 +89,53 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\Index\animate.min.css" />
+    <Content Include="Content\css\Index\bootstrap.min.css" />
+    <Content Include="Content\css\Index\flexslider.css" />
+    <Content Include="Content\css\Index\flickity.min.css" />
+    <Content Include="Content\css\Index\fonts\Stroke-Gap-Icons.svg" />
+    <Content Include="Content\css\Index\ie.css" />
+    <Content Include="Content\css\Index\normalize.min.css" />
+    <Content Include="Content\css\Index\print.css" />
+    <Content Include="Content\css\Index\screen.css" />
+    <Content Include="Content\css\Index\styles.css" />
+    <Content Include="Content\images\Index\article-01.jpg" />
+    <Content Include="Content\images\Index\article-02.jpg" />
+    <Content Include="Content\images\Index\article-03.jpg" />
+    <Content Include="Content\images\Index\article-04.jpg" />
+    <Content Include="Content\images\Index\article-05.jpg" />
+    <Content Include="Content\images\Index\article-06.jpg" />
+    <Content Include="Content\images\Index\crew-blaz-robar.jpg" />
+    <Content Include="Content\images\Index\crew-dude.jpg" />
+    <Content Include="Content\images\Index\crew-mary-lou.jpg" />
+    <Content Include="Content\images\Index\crew-peter-finlan.jpg" />
+    <Content Include="Content\images\Index\dd-arrow.png" />
+    <Content Include="Content\images\Index\freebie-03.jpg" />
+    <Content Include="Content\images\Index\freebie-04.jpg" />
+    <Content Include="Content\images\Index\Glogo.png" />
+    <Content Include="Content\images\Index\home_main_1.jpg" />
+    <Content Include="Content\images\Index\home_main_3.jpg" />
+    <Content Include="Content\images\Index\home_main_2.jpg" />
+    <Content Include="Content\images\Index\landio-freebie.jpg" />
+    <Content Include="Content\images\Index\sedna-freebie.jpg" />
+    <Content Include="Content\images\Index\stats-bg.jpg" />
+    <Content Include="Content\images\Index\logo.png" />
+    <Content Include="Content\images\Index\texture-shapes-bg.png" />
+    <Content Include="Content\images\Index\video-cover.jpg" />
+    <Content Include="Content\js\Index\jquery-ui.min.js" />
+    <Content Include="Content\js\Index\jquery.min.js" />
+    <Content Include="Content\js\Index\min\bootstrap.min.js" />
+    <Content Include="Content\js\Index\min\flickity.pkgd.min.js" />
+    <Content Include="Content\js\Index\min\jquery-1.11.2.min.js" />
+    <Content Include="Content\js\Index\min\jquery.flexslider-min.js" />
+    <Content Include="Content\js\Index\min\jquery.waypoints.min.js" />
+    <Content Include="Content\js\Index\min\modernizr-2.8.3-respond-1.4.2.min.js" />
+    <Content Include="Content\js\Index\min\retina.min.js" />
+    <Content Include="Content\js\Index\min\scripts-min.js" />
+    <Content Include="Content\js\Index\min\toucheffects-min.js" />
+    <Content Include="Content\js\Index\min\video-min.js" />
+    <Content Include="Content\js\Index\scripts.js" />
+    <Content Include="Content\js\Index\video.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -102,6 +149,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Content\css\Index\fonts\Stroke-Gap-Icons.eot" />
+    <Content Include="Content\css\Index\fonts\Stroke-Gap-Icons.ttf" />
+    <Content Include="Content\css\Index\fonts\Stroke-Gap-Icons.woff" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
@@ -113,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\music\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
