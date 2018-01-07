@@ -89,6 +89,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\Featured_articles\amazeui.css" />
+    <Content Include="Content\css\Featured_articles\style.css" />
     <Content Include="Content\css\Index\animate.min.css" />
     <Content Include="Content\css\Index\bootstrap.min.css" />
     <Content Include="Content\css\Index\flexslider.css" />
@@ -99,6 +101,9 @@
     <Content Include="Content\css\Index\print.css" />
     <Content Include="Content\css\Index\screen.css" />
     <Content Include="Content\css\Index\styles.css" />
+    <Content Include="Content\images\Featured_articles\bg-pic2.png" />
+    <Content Include="Content\images\Featured_articles\bg-pic3.png" />
+    <Content Include="Content\images\Featured_articles\ios.png" />
     <Content Include="Content\images\Index\crew-blaz-robar.jpg" />
     <Content Include="Content\images\Index\crew-dude.jpg" />
     <Content Include="Content\images\Index\crew-mary-lou.jpg" />
@@ -106,29 +111,27 @@
     <Content Include="Content\images\Index\dd-arrow.png" />
     <Content Include="Content\images\Index\freebie-03.jpg" />
     <Content Include="Content\images\Index\freebie-04.jpg" />
-    <Content Include="Content\images\Index\Glogo.png" />
+    <Content Include="Content\images\public\Glogo.png" />
     <Content Include="Content\images\Index\home_main_1.jpg" />
     <Content Include="Content\images\Index\home_main_3.jpg" />
     <Content Include="Content\images\Index\home_main_2.jpg" />
     <Content Include="Content\images\Index\landio-freebie.jpg" />
-    <Content Include="Content\images\Index\QR_code_qun.jpg" />
+    <Content Include="Content\images\public\QR_code_qun.jpg" />
     <Content Include="Content\images\Index\sedna-freebie.jpg" />
     <Content Include="Content\images\Index\stats-bg.jpg" />
-    <Content Include="Content\images\Index\logo.png" />
+    <Content Include="Content\images\public\logo.png" />
     <Content Include="Content\images\Index\beijingtu.png" />
     <Content Include="Content\images\Index\video-cover.jpg" />
+    <Content Include="Content\js\Featured_articles\amazeui.min.js" />
+    <Content Include="Content\js\Featured_articles\jquery.min.js" />
     <Content Include="Content\js\Index\jquery-ui.min.js" />
     <Content Include="Content\js\Index\jquery.min.js" />
     <Content Include="Content\js\Index\min\bootstrap.min.js" />
     <Content Include="Content\js\Index\min\flickity.pkgd.min.js" />
-    <Content Include="Content\js\Index\min\jquery-1.11.2.min.js" />
-    <Content Include="Content\js\Index\min\jquery.flexslider-min.js" />
     <Content Include="Content\js\Index\min\jquery.waypoints.min.js" />
     <Content Include="Content\js\Index\min\modernizr-2.8.3-respond-1.4.2.min.js" />
     <Content Include="Content\js\Index\min\retina.min.js" />
     <Content Include="Content\js\Index\min\scripts-min.js" />
-    <Content Include="Content\js\Index\min\toucheffects-min.js" />
-    <Content Include="Content\js\Index\min\video-min.js" />
     <Content Include="Content\js\Index\scripts.js" />
     <Content Include="Content\js\Index\video.min.js" />
     <Content Include="Global.asax" />
@@ -149,6 +152,7 @@
     <Content Include="Content\css\Index\fonts\Stroke-Gap-Icons.woff" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Featured_articles.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
