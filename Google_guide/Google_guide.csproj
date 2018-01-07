@@ -99,12 +99,6 @@
     <Content Include="Content\css\Index\print.css" />
     <Content Include="Content\css\Index\screen.css" />
     <Content Include="Content\css\Index\styles.css" />
-    <Content Include="Content\images\Index\article-01.jpg" />
-    <Content Include="Content\images\Index\article-02.jpg" />
-    <Content Include="Content\images\Index\article-03.jpg" />
-    <Content Include="Content\images\Index\article-04.jpg" />
-    <Content Include="Content\images\Index\article-05.jpg" />
-    <Content Include="Content\images\Index\article-06.jpg" />
     <Content Include="Content\images\Index\crew-blaz-robar.jpg" />
     <Content Include="Content\images\Index\crew-dude.jpg" />
     <Content Include="Content\images\Index\crew-mary-lou.jpg" />
