@@ -89,9 +89,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\Article\bootstrap.css" />
+    <Content Include="Content\css\Article\font-awesome.min.css" />
+    <Content Include="Content\css\Article\main.css" />
+    <Content Include="Content\css\Article\my-custom-styles.css" />
     <Content Include="Content\css\Featured_articles\amazeui.css" />
     <Content Include="Content\css\Featured_articles\style.css" />
     <Content Include="Content\css\Index\animate.min.css" />
+    <Content Include="Content\images\Article\free.png" />
+    <Content Include="Content\images\Article\hero-unit-obj.png" />
+    <Content Include="Content\images\Article\hero-unit-obj3.png" />
+    <Content Include="Content\images\Article\intro-img.png" />
+    <Content Include="Content\images\Article\clients_logo\logo1.png" />
+    <Content Include="Content\images\Article\clients_logo\logo2.png" />
+    <Content Include="Content\images\Article\clients_logo\logo3.png" />
+    <Content Include="Content\images\Article\clients_logo\logo4.png" />
+    <Content Include="Content\images\Article\clients_logo\logo5.png" />
+    <Content Include="Content\images\Article\more\featured-news.png" />
+    <Content Include="Content\images\Article\more\news1.png" />
+    <Content Include="Content\images\Article\more\news2.png" />
+    <Content Include="Content\images\Article\more\news3.png" />
+    <Content Include="Content\images\Article\more\news4.png" />
+    <Content Include="Content\images\Article\more\news5.png" />
+    <Content Include="Content\images\Article\portfolio\800x500\work1.png" />
+    <Content Include="Content\images\Article\portfolio\800x500\work3.png" />
+    <Content Include="Content\images\Article\portfolio\800x500\work4.png" />
+    <Content Include="Content\images\Article\portfolio\800x500\work5.png" />
+    <Content Include="Content\images\Article\portfolio\800x500\work6.png" />
+    <Content Include="Content\images\Article\portfolio\800x500\work7.png" />
+    <Content Include="Content\images\Article\sliders\slider1-h500.png" />
+    <Content Include="Content\images\Article\sliders\slider2-h500.png" />
+    <Content Include="Content\images\Article\sliders\slider3-h500.png" />
+    <Content Include="Content\images\Article\testimonial-bg.png" />
+    <Content Include="Content\images\Featured_articles\bg-pic1.png" />
     <Content Include="Content\css\Index\bootstrap.min.css" />
     <Content Include="Content\css\Index\flexslider.css" />
     <Content Include="Content\css\Index\flickity.min.css" />
@@ -116,12 +146,18 @@
     <Content Include="Content\images\Index\home_main_3.jpg" />
     <Content Include="Content\images\Index\home_main_2.jpg" />
     <Content Include="Content\images\Index\landio-freebie.jpg" />
+    <Content Include="Content\images\public\logo1.png" />
     <Content Include="Content\images\public\QR_code_qun.jpg" />
     <Content Include="Content\images\Index\sedna-freebie.jpg" />
     <Content Include="Content\images\Index\stats-bg.jpg" />
     <Content Include="Content\images\public\logo.png" />
     <Content Include="Content\images\Index\beijingtu.png" />
     <Content Include="Content\images\Index\video-cover.jpg" />
+    <Content Include="Content\js\Article\bootstrap.min.js" />
+    <Content Include="Content\js\Article\jquery-2.1.1.min.js" />
+    <Content Include="Content\js\Article\jquery.stellar.min.js" />
+    <Content Include="Content\js\Article\repute-scripts.js" />
+    <Content Include="Content\js\Article\slick.min.js" />
     <Content Include="Content\js\Featured_articles\amazeui.min.js" />
     <Content Include="Content\js\Featured_articles\jquery.min.js" />
     <Content Include="Content\js\Index\jquery-ui.min.js" />
@@ -154,6 +190,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Featured_articles.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Views\Home\Article.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

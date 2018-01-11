@@ -13,7 +13,11 @@ namespace Google_guide.Controllers
         {
             return View();
         }
-        public ActionResult Featured_articles()     //精选文章
+        public ActionResult Featured_articles()     //精选文章页面
+        {
+            return View();
+        }
+        public ActionResult Article()     //文章内容页面
         {
             return View();
         }
