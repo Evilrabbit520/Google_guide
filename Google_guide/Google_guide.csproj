@@ -190,13 +190,14 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Featured_articles.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
-    <Content Include="Views\Home\Article.cshtml" />
+    <Content Include="Views\Home\Article_Google_1.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="模板\文章页面.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -17,7 +17,11 @@ namespace Google_guide.Controllers
         {
             return View();
         }
-        public ActionResult Article()     //文章内容页面
+        public ActionResult Article_Google_1()     //文章内容页面
+        {
+            return View();
+        }
+        public ActionResult Article_Google_2()     //未使用
         {
             return View();
         }
