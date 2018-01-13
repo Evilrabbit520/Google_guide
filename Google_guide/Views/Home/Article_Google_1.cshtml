@@ -7,7 +7,7 @@
 <html lang="zh-cn">
 
 <head>
-    <title>文章</title>
+    <title>世界的谷歌</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Free Bootstrap Business Template">
@@ -24,6 +24,8 @@
     <link href='http://fonts.googleapis.com/css?family=roboto+condensed:300,300italic,400italic,700,400,300' rel='stylesheet' type='text/css'>*@
     <!-- FAVICONS -->
     <link rel="shortcut icon" href="~/Content/images/public/Glogo.png">
+
+
 </head>
 
 <body>
@@ -47,12 +49,12 @@
                         <li class="dropdown active">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">返回<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="index.html">主页</a></li>
-                                <li><a href="index-dark-header.html">精选文章</a></li>
+                                <li><a href="/Home/Index">主页</a></li>
+                                <li><a href="Home/Featured_articles">精选文章</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">招贤纳士</a></li>
-                        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">加入群聊</a></li>
+                        @*<li><a href="#" class="dropdown-toggle" data-toggle="dropdown">招贤纳士</a></li>*@
+                        <li><a href="https://jq.qq.com/?_wv=1027&k=5ODlSda" class="dropdown-toggle" data-toggle="dropdown">加入群聊</a></li>
 
                         @*（暂时不用）<li><a href="https://goo.gl/27z3vD" class="special-menu-item" target="_blank"><i class="fa fa-rocket"></i> UPGRADE TO PRO</a></li>*@
                     </ul>
@@ -121,220 +123,138 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="~/Content/images/Article/intro-img.png" class="img-responsive" alt="Image Intro">
+                    <div id="" class="col-md-3">
+                        <img src="~/Content/images/Article/google.png" class="img-responsive" alt="Image Intro">
+                        @* 目录开始 *@
+                        <div>
+                            <h2>目录</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <h4><a href="#导语"><font color="#FF0080">0 导语</font></a></h4>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h4><a href="#注释"><font color="#FF0080">1 注释</font></a></h4>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h4><a href="#Google"><font color="#FF0080">2 Google</font></a></h4>
+                                <ul>
+                                    <li><a href="#Google公司"><font color="#921AFF">2.0 Google公司</font></a></li>
+                                    <li><a href="#上市"><font color="#921AFF">2.1 上市</font></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h4><a href="#广告服务"><font color="#FF0080">3 广告服务</font></a></h4>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h4><a href="#搜索引擎"><font color="#FF0080">3 搜索引擎</font></a></h4>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h4><a href="#浏览器"><font color="#FF0080">4 浏览器</font></a></h4>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h4><a href="#数据中心"><font color="#FF0080">5 数据中心</font></a></h4>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h4><a href="#结束语"><font color="#FF0080">6 结束语</font></a></h4>
+                            </li>
+                        </ul>
+                        @* 目录结束 *@
                     </div>
                     <div class="col-md-9">
-                        <h2 class="section-heading">KNOW BETTER</h2>
-                        <p class="lead">Synergistically procrastinate one-to-one results for accurate platforms. Assertively whiteboard corporate users whereas dynamic initiatives.</p>
-                        <p>Energistically architect leading-edge users and inexpensive internal or "organic" sources. Distinctively evolve e-business resources after progressive intellectual capital. Objectively architect maintainable technologies via strategic convergence. Continually optimize stand-alone expertise with e-business e-services. Continually conceptualize client-centered opportunities and.</p>
-                        <p>Dynamically customize backward-compatible processes via front-end models. Distinctively evisculate an expanded array of scenarios after virtual information. Professionally predominate technically sound resources through impactful mindshare. Efficiently drive viral interfaces without inexpensive value. Credibly.</p>
-                    </div>
-                    <!--<div class="col-md-3">
-                        <img src="assets/img/intro-img.png" class="img-responsive" alt="Image Intro">
-                    </div>-->
+                        <h1 @*class="section-heading"（标题分割线）*@ style=" text-align:center;">伟大的Google</h1>@*标题居中*@
+                        
+                        <p id="导语" class="lead">Google,想必看到这篇文章的同学都不陌生吧？是的，那就是我们伟大的Google公司。但是Google仅仅是你所听到和了解到那些吗？下面和小编一起去认识Google吧。</p>
+                        <p id="注释">关于Google公司开发的搜索引擎，请见“<a href="https://www.google.com/">Google搜索</a>”。关于“Google”名字的起源，即大数10100，请见“Googol”。</p>
+                        <h2 id="Google">Google</h2>
+                        <p id="Google公司"><b>Google公司</b>（英语：Google Inc.；中文：谷歌），是一家美国的跨国科技企业，业务范围涵盖互联网广告、互联网搜索、云计算等领域，开发并提供大量基于互联网的产品与服务，
+                        其主要利润来自于AdWords等广告服务。Google由在斯坦福大学攻读理工博士的拉里·佩奇和谢尔盖·布林共同创建，因此两人也被称为“Google Guys”。1998年9月4日，Google以私营
+                        公司的形式创立，目的是设计并管理互联网搜索引擎“Google搜索”。2004年8月19日，Google公司在纳斯达克上市，后来被称为“三驾马车”的公司两位共同创始人与出任首席执行官
+                        的埃里克·施密特在此时承诺：共同在Google工作至少二十年，即至2014年止。Google的宗旨是“整合全球信息，供大众使用，使人人受益”[To organize the world's information 
+                        and make it universally accessible and useful](光是看宗旨都让人打心底生出一种敬畏之心啊)；而非正式的口号则为“不作恶”（Don't be evil），由工程师阿米特·帕特尔
+                        （Amit Patel）所创，并得到了保罗·布赫海特的支持。Google公司的总部称为“Googleplex”，位于美国加州圣克拉拉县的芒廷维尤。2011年4月，佩奇接替施密特担任首席执行官。
+                        在2015年8月，Google进行宣布资产重组。重组后，Google划归新成立的Alphabet底下。同时，此举把Google旗下的核心搜索和广告业务与Google无人车等新兴业务分离开来。
+                        <br/>
+                        据估计，Google在全世界的数据中心内运营着上百万台的服务器，每天处理数以亿计的搜索请求和约二十四PB（参考数据：1PB=1000TB）用户生成的数据。 Google自创立起开始的快速成长同时也带动了一系列
+                        的产品研发、并购事项与合作关系，而不仅仅是公司核心的网络搜索业务。Google公司提供丰富的线上软件服务，如云硬盘、Gmail电子邮件，包括Orkut、Google Buzz以及Google+在内的社交网络服务。Google
+                        的产品同时也以应用软件的形式进入用户桌面，例如Google Chrome网页浏览器、Picasa图片整理与编辑软件、Google Talk即时通讯工具等。另外，Google还进行了移动设备的Android操作系统以及Google Chrome 
+                        OS操作系统的开发，上面提到的大部分业务，小编都是用过的，不得不说，是真的好用。
+                        <br/>
+                        信息分析网站Alexa数据显示，Google的主域名google.com是全世界访问量最高的站点，Google搜索在其他国家或地区域名下的多个站点（google.co.in、google.de、google.com.hk等等），及旗下的YouTube、
+                        Blogger、Orkut等的访问量都在前一百名之内。其中，社交网络服务Orkut于2014年9月关闭。<br/>
+                        <b id="上市">上市</b> 佩奇和布林在Google项目上最早获得投资是在1998年8月，Sun Microsystems的联合创始人安迪·贝托尔斯海姆给了两人一张十万美元的支票来用于搜索引擎的开发和运营，当时Google公司还尚未成立。
+                        到1999年，由于搜索引擎的开发花费了太多的学习时间，佩奇和布林甚至考虑将其出售。两人找到Excite公司CEO乔治·贝尔（George Bell）提出一百万美元的收购价。尽管Excite的风险投资人维诺德·科斯拉在与
+                        Google的两位创始人谈判后将价格降低到75万美元，但仍被贝尔拒绝了。1999年6月7日，包括Kleiner Perkins公司和红杉资本在内的投资者为Google注资两千五百万美元。<br/>
+                        Google在2004年8月19日进行了首次公开募股，公司发行了19,605,052份每股价值85美元的股票。股票由摩根士丹利和瑞士信贷集团承销，以网上拍卖的形式发售。 IPO后，Google公司的市值迅速上涨到超过230亿美元，
+                        而Google仍然控制着27182万（2.718281828和数学常数e有关）股票中的大多数股份，许多Google公司的雇员也在瞬间变成百万富翁。而作为竞争对手的雅虎，也因为在Google上市前持有840万股票而受益。<br/>
+                        有人怀疑Google公司的企业文化在上市后，会由于董事会施压或高管们的暴富而不可避免地被改变。两位创始人拉里·佩奇和谢尔盖·布林则在一份报告中承诺，上市不会影响Google的公司文化，以作为对潜在投资者
+                        们的怀疑所做的回应。2005年，纽约时报等媒体撰文指出Google已经丧失了原来不作恶的哲学。在此之下，为了保持与众不同的企业文化，Google专门指派了一位首席文化官，来为Google构建和维护企业内部广泛协助的
+                        扁平化组织，及其所产生的核心价值。Google也面临前员工性别歧视和年龄歧视的指控。<br/>
+                        首次公开募股之后，Google的股票形势良好，2007年10月31日，受益于在网络广告市场的强势盈利，股价首次超过700美元。相比较大型机构投资和共同基金，Google股票的股价的变动更多地是由个人投资者们所影响。
+                        在2015年第四季起，Google的上市地位由母公司Alphabet Inc.取代。</p>
+                        <br/>
+                        <h2 id="广告服务">广告服务</h2>
+                        <p>Google九成以上的营收来自其广告系统。如2006年财政年度，公司财报显示104.92亿美元的收入中只有1.12亿来自于非广告收入。为了保持在网络广告代理市场中执牛耳的地位，Google不断实施各种新的手段。
+                        例如Google在收购DoubleClick后获取技术，得以获取用户兴趣和确定广告目标。Google Analytics可以让网站站长们查看并追踪访问者在何时，以何种方式访问自己的网站，如检查某一页面上所有链接的点击等。
+                        Google的广告系统由两个部分组成，通过第三方网站来放置。AdWords为广告客户提供在网络中展示广告的服务，按点击或显示收费；AdWords的姊妹项目AdSense，允许网站站长在自己的网页中提供广告展示的位置，
+                        并参与分成。
+                        但Google也由于在网络广告系统中反点击欺诈管理的欠缺而受到诟病——当一个并不是出于对广告中产品感兴趣的访客或一个自动脚本故意点击该则广告后，会引起广告客户过多支付广告费用。
+                        2006年的行业报告指出，约有14%至20%的点击属于欺诈点击或无效点击。另一个对Google广告业务的批评来自于对广告客户的审查，有些被怀疑违反数字千年版权法。2003年2月，Google停止了对一个名为<font color="#02F78E">
+                        Oceana</font>的非营利组织的
+                        （抗议大型油轮不合理的污水处理）广告展示。Google引用其编辑政策解释：“Google不接受广告或网站内容为宣扬反对其他个人、团体或组织的广告。”该政策却在随后即被更改。 2008年6月，在美国司法部鉴于反托拉斯的促
+                        使之下，Google与雅虎两大巨头达成广告协议，雅虎在自己的网站页面上显示Google广告。但最终Google又在2008年11月撤出该协议。
+                        为了推销自己的产品，Google启动了一个名为Demo Slam的网站以展示自有产品的技术示范。每一周都会有两个团队竞相把Google的新产品公布到网站上。《搜索引擎杂志》撰文写道：Demo Slam是
+                        “创作者和技术娴熟的人们制作视频来使世界上其他人类了解最新最伟大技术的地方”。</p>
+                        <br/>
+                        <h2 id="搜索引擎">搜索引擎</h2>
+                        <p>对于搜索引擎来讲，这可能是大家最为熟悉的一部分，同样也是小编非常熟悉的，因为咱们大家现在所了解的（<a href="https://www.baidu.com/">百度搜索</a>）就是很好的例子，他可以搜索几乎所有基础互联网上的内容。<br/>
+                        Google搜索是Google公司重要也是最普及的一项功能，是多个国家内使用率最高的互联网搜索引擎。根据comScore2009年11月公布的市场统计，Google在美国搜索引擎市场上占有率为65.6%。 Google抓取数十亿的互联网网页，
+                        因此用户能通过搜索关键词等操作较为轻松地获取想要搜寻的信息。[109]除了最基本的文字搜索功能之外，Google搜索还提供至少22种特殊功能，[110][111]如同义词、天气预报、时区、股价、地图、地震数据、电影放映时间
+                        、机场、体育赛事比分等。Google搜索在搜索与数字相关的信息时又会有另一些特殊功能：如单位换算、货币换算、数字运算、包裹追踪、地区代码。[110]同时，Google也为搜索页面提供语言翻译功能。2011年，Google先后推
+                        出语音搜索和图片搜索。<br/>
+                        尽管Google搜索很受大众喜爱，但也有组织对它发出批评的声音。2003年，纽约时报声称Google对其网站抓取与形成的缓存侵害了网站内容的版权。在这个问题上，内华达地方法院审理了相关的Field v. Google和Parker v. Google
+                        两个案件，Google成功地为自己作了辩护，推翻了指控。</p>
+                        <br/>
+                        <h2 id="浏览器">浏览器</h2>
+                        <p><a href="https://www.google.com/chrome/browser/desktop/index.html">Google Chrome</a>是Google以WebKit排版引擎开发的一款开源的网页浏览器,节日和活动期间是有很多彩蛋的喔！2008年，Google公司发布了该浏览器大部分的源代码，包括V8 JavaScript
+                        引擎的开源项目Chromium。这一举动使得第三方的开发者们能够获取底层源代码，促使浏览器与Mac OS X或Linux操作系统的端口对接。Google官方同时也表达了希望其他浏览器能够采用V8引擎以提升web应用程序的性能。Google在Ch
+                        romium的创作上按照BSD许可证条款，使得这部分内容几乎属于公有领域，有着很 高的兼容性。而其他部分的内容则遵循一系列的开源许可证。Chromium的特性与Chrome基本相似，但没有内置的自动更新功能，也没有内置的PDF浏览
+                        功能；另外，Chromium也没有Google商标的印记，与Chrome四色的Logo最明显的区别是其蓝色的标识。<br/>
+                        2008年9月2日，Google推出在Windows上Beta版的Google Chrome，稳定版本则在12月11日推出。 2011年，根据StatCounter的统计，Chrome以20.65%的浏览器市场份额排在IE和火狐之后跃至第三位。2011年7月11日，Chrome在英
+                        国的市场份额达到22.12%，而Firefox仅占21.65%，这是Chrome首次在地区的统计中超越Firefox。2012年5月21日，Chrome在全球范围内占有率达到33%，超越IE位居首位，[157]此后与IE、Firefox继续保持“三足鼎立”的局面。
+                        从Chrome 28+开始使用Blink引擎。</p>
+                        <br/>
+                        <h2 id="数据中心">数据中心</h2>
+                        <p>Google公司因应全球用户的需求，在美国及世界各地创建数据中心。至2013年底，Google公司已在美国（6处）、智利、比利时、爱尔兰、芬兰、新加坡及台湾设有共12处数据中心，另还有其他数据中心筹建中。<br/>
+                        其中台湾数据中心是Google在亚洲最大的数据中心，以进军亚洲的云产业，而该数据中心有机器人为主题。<br/>
+                        大多数数据中心的业主基于信息安全考量，极少透露其数据中心的信息及内部情形。不过Google公司曾于2012年在其网站设立专栏，公开了各地数据中心的内部照片及部分街景图，让外界一窥其神秘面纱。</p>
+                        <br/>
+                        <p id="结束语">本期的文章分享到这里就来到了尾声，本篇文章是本站第一篇文章，今后我们将按照相应规定发表好的、有技术含量的文章和技术文档免费提供给大家参考，也希望各位多多捧场！</p>
                 </div>
+                <!--<div class="col-md-3">
+                <img src="assets/img/intro-img.png" class="img-responsive" alt="Image Intro">-->
             </div>
-        </section>
-        <!-- END INTRO -->
-        <!-- BOXED CONTENT -->
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="boxed-content left-aligned left-boxed-icon">
-                            <i class="fa fa-flag"></i>
-                            <h2 class="boxed-content-title">GOAL ORIENTED</h2>
-                            <p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="boxed-content left-aligned left-boxed-icon">
-                            <i class="fa fa-globe"></i>
-                            <h2 class="boxed-content-title">GLOBAL SERVICE</h2>
-                            <p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="boxed-content left-aligned left-boxed-icon">
-                            <i class="fa fa-cog"></i>
-                            <h2 class="boxed-content-title">DYNAMIC CHANGE</h2>
-                            <p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="boxed-content left-aligned left-boxed-icon">
-                            <i class="fa fa-users"></i>
-                            <h2 class="boxed-content-title">PROFESSIONAL SUPPORT</h2>
-                            <p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </section>
-        <!-- END BOXED CONTENT -->
-        <!-- WHY REPUTE -->
-        <section>
-            <div class="container">
-                <h2 class="section-heading sr-only">WHY REPUTE</h2>
-                <div class="tab-content">
-                    <div class="tab-pane fade in active text-center" id="tab-bottom1">
-                        <img src="~/Content/images/Article/hero-unit-obj.png" class="img-responsive center-block margin-bottom-30px" alt="Ultra Responsive">
-                        <h3 class="text-accent-color">ULTRA RESPONSIVE</h3>
-                        <p class="lead">Phosfluorescently revolutionize viral leadership via turnkey technology. Synergistically monetize intermandated strategic theme areas through multimedia based.</p>
-                    </div>
-                    <div class="tab-pane fade text-center" id="tab-bottom2">
-                        <img src="~/Content/images/Article/hero-unit-obj3.png" class="img-responsive center-block margin-bottom-30px" alt="Easy to Customize">
-                        <h3 class="text-accent-color">IT'S EASY TO CUSTOMIZE</h3>
-                        <p class="lead">Efficiently incentivize leading-edge alignments with go forward expertise. Conveniently myocardinate leveraged process improvements through progressive models.</p>
-                    </div>
-                    <div class="tab-pane fade text-center" id="tab-bottom3">
-                        <img src="~/Content/images/Article/hero-unit-obj.png" class="img-responsive center-block margin-bottom-30px" alt="Clean and Elegant Design">
-                        <h3 class="text-accent-color">CLEAN &amp; ELEGANT DESIGN</h3>
-                        <p class="lead">Competently implement bricks-and-clicks collaboration and idea-sharing rather than visionary internal or "organic" sources. Rapidiously matrix premium core competencies for.</p>
-                    </div>
-                    <div class="tab-pane fade text-center" id="tab-bottom4">
-                        <img src="~/Content/images/Article/free.png" class="img-responsive center-block margin-bottom-30px" alt="Free Updates and Support">
-                        <h3 class="text-accent-color">GET UPDATES &amp; SUPPORT FOR FREE</h3>
-                        <p class="lead">Dramatically supply adaptive imperatives and stand-alone content. Exceptional solutions after web-enabled potentialities. Synergistically negotiate alternative best practices whereas professional "outside the box" thinking.</p>
-                    </div>
-                </div>
-                <div class="custom-tabs-line tabs-line-top">
-                    <ul class="nav" role="tablist">
-                        <li class="active"><a href="#tab-bottom1" role="tab" data-toggle="tab">Responsive</a></li>
-                        <li><a href="#tab-bottom2" role="tab" data-toggle="tab">Easy to Customize</a></li>
-                        <li><a href="#tab-bottom3" role="tab" data-toggle="tab">Design</a></li>
-                        <li><a href="#tab-bottom4" role="tab" data-toggle="tab">Free Updates &amp; Support</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
 
-        <section class="recent-works">
-            <div class="container">
-                <h2 class="section-heading pull-left">RECENT WORKS</h2>
-                <a href="#" class="btn btn-primary pull-right">See all works</a>
-                <div class="clearfix"></div>
-                <div class="portfolio-static">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="portfolio-item">
-                                <div class="overlay"></div>
-                                <div class="info">
-                                    <h4 class="title">Raining</h4>
-                                    <p class="brief-description">Photography</p>
-                                    <a href="#" class="btn">read more</a>
-                                </div>
-                                <div class="media-wrapper">
-                                    <img src="~/Content/images/Article/portfolio/800x500/work5.png" alt="Item Thumbnail" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="portfolio-item">
-                                <div class="overlay"></div>
-                                <div class="info">
-                                    <h4 class="title">Perfect Edge</h4>
-                                    <p class="brief-description">Product Design</p>
-                                    <a href="#" class="btn">read more</a>
-                                </div>
-                                <div class="media-wrapper">
-                                    <img src="~/Content/images/Article/portfolio/800x500/work6.png" alt="Item Thumbnail" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="portfolio-item">
-                                <div class="overlay"></div>
-                                <div class="info">
-                                    <h4 class="title">Sunny Day</h4>
-                                    <p class="brief-description">Photography</p>
-                                    <a href="#" class="btn">read more</a>
-                                </div>
-                                <div class="media-wrapper">
-                                    <img src="~/Content/images/Article/portfolio/800x500/work7.png" alt="Item Thumbnail" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
-        <!-- END RECENT WORKS -->
-        <!-- more -->
-        <section>
-            <div class="container">
-                <h2 class="section-heading">LATEST NEWS</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="news-item news-featured">
-                            <a href="#"><img src="~/Content/images/Article/more/featured-news.png" class="img-responsive" alt="News Thumbnail"/></a>
-                            <h3 class="news-title"><a href="#">In Demand: Collaboration Skill</a></h3>
-                            <p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures. Seamlessly predominate interoperable growth strategies.</p>
-                            <div class="news-meta">
-                                <span class="news-datetime">2017-12-12</span>
-                                <span class="news-comment-count pull-right">65 个外链</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="news-item margin-bottom-30px clearfix">
-                                    <a href="#"><img src="~/Content/images/Article/more/news1.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
-                                    <div class="right">
-                                        <h3 class="news-title"><a href="#">Growth Strategies We Must Know</a></h3>
-                                        <p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="news-item margin-bottom-30px clearfix">
-                                    <a href="#"><img src="~/Content/images/Article/more/news2.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
-                                    <div class="right">
-                                        <h3 class="news-title"><a href="#">Alternative E-commerce</a></h3>
-                                        <p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="news-item margin-bottom-30px clearfix">
-                                    <a href="#"><img src="~/Content/images/Article/more/news3.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
-                                    <div class="right">
-                                        <h3 class="news-title"><a href="#">Products Research Methodology &amp; Principles </a></h3>
-                                        <p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="news-item margin-bottom-30px clearfix">
-                                    <a href="#"><img src="~/Content/images/Article/more/news4.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
-                                    <div class="right">
-                                        <h3 class="news-title"><a href="#">Understanding Globally Scale Quality Network</a></h3>
-                                        <p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="news-item margin-bottom-30px clearfix">
-                                    <a href="#"><img src="~/Content/images/Article/more/news5.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
-                                    <div class="right">
-                                        <h3 class="news-title"><a href="#">Professional Leverage</a></h3>
-                                        <p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="see-all-news">
-                                    <a href="#">See all news <i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </section>
-        <!-- END LATEST NEWS -->
+        <!-- END INTRO -->
+       
+        
         <!-- NUMBERS -->
         <section class="full-width-section no-margin">
             <div class="container">
@@ -342,7 +262,7 @@
                     <div class="col-sm-3 col-xs-6">
                         <div class="number-info horizontal text-white-color">
                             <i class="fa fa-plug pull-left"></i>
-                            <p>520<span>次连接</span></p>
+                            <p>520<span>次链接</span></p>
                         </div>
                     </div>
                     <div class="col-sm-3 col-xs-6">
@@ -360,19 +280,19 @@
                     <div class="col-sm-3 col-xs-6">
                         <div class="number-info horizontal text-white-color">
                             <i class="fa fa-users pull-left"></i>
-                            <p>53<span>位用户</span></p>
+                            <p>54<span>位用户</span></p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- END NUMBERS -->
-        <!-- OUR CLIENTS -->
+        
         <section class="clients">
             <div class="container">
-                <h2 class="section-heading">OUR CLIENTS</h2>
+                <h2 class="section-heading">友情链接</h2>
                 <ul class="list-inline list-client-logo">
-                    <li>
+                    @*<li>
                         <a href="#"><img src="~/Content/images/Article/clients_logo/logo1.png" alt="logo"></a>
                     </li>
                     <li>
@@ -386,7 +306,7 @@
                     </li>
                     <li>
                         <a href="#"><img src="~/Content/images/Article/clients_logo/logo5.png" alt="logo"></a>
-                    </li>
+                    </li>*@
                 </ul>
             </div>
         </section>
@@ -395,10 +315,10 @@
         <section class="call-to-action">
             <div class="container">
                 <div class="pull-left">
-                    <h2 class="section-heading">GET IN TOUCH</h2>
+                    <h2 class="section-heading">Contribution hotline</h2>
                 </div>
                 <div class="pull-right">
-                    <span>Call us at (1800) 765 - 4321 or</span>&nbsp;&nbsp;<a href="#" class="btn btn-lg btn-primary">CONTACT US</a>
+                    <span>+86&nbsp;188&nbsp;0937&nbsp;1058</span>&nbsp;&nbsp;@*<a href="#" class="btn btn-lg btn-primary">CONTACT US</a>*@
                 </div>
             </div>
         </section>
@@ -411,77 +331,92 @@
                         <!-- COLUMN 1 -->
                         <h3 class="sr-only">ABOUT US</h3>
                         <img src="~/Content/images/public/logo1.png" class="logo" alt="Repute">
-                        <p>Proactively aggregate B2B initiatives before extensive channels. Monotonectally extend interactive methods of 
-                        empowerment through excellent applications. Rapidiously synergize visionary products with sticky technology.</p>
-                        <br>
+                        <p>这是Google guide的第一篇文章，今后我们保证会把每篇文章以该种形式和精彩程度推送给大家，由于互联网监管体系的制约，我们将选用投稿的形式
+                        来对文章进行推送，以保证文章的内容不触犯我国底线，敬请大家谅解.</p>
+                        <br/>
                         <address class="margin-bottom-30px">
                             <ul class="list-unstyled">
-                                <li>
-                                    1234 North Main Street
-                                    <br /> New York, NY 222222
-                                </li>
-                                <li>Phone: (1800) 765 - 4321</li>
-                                <li>Email: email@yourdomain.com</li>
+                                <li>Phone: +86 188 0937 1058</li>
+                                <li>E-mail: evilrabbit520@Gmail.com</li>
                             </ul>
                         </address>
                         <!-- END COLUMN 1 -->
                     </div>
                     <div class="col-md-4">
-                        <!-- COLUMN 2 -->
-                        <h3 class="footer-heading">USEFUL LINKS</h3>
+                        @* 底部第二模块 *@
+                        @* 1 *@
+                        <h3 class="footer-heading">相关链接</h3>
                         <div class="row margin-bottom-30px">
                             <div class="col-xs-6">
                                 <ul class="list-unstyled footer-nav">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">Community</a></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Google guide</a></li>
+                                    <li><a href="https://www.google.com">Google</a></li>
                                 </ul>
                             </div>
                             <div class="col-xs-6">
                                 <ul class="list-unstyled footer-nav">
-                                    <li><a href="#">Press Kit</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">Terms</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">加入我们</a></li>
+                                    <li><a href="https://jq.qq.com/?_wv=1027&k=5ODlSda">加入用户群</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <!-- END COLUMN 2 -->
-                    </div>
+                        @* END 1 *@
+                        @* 2 *@
+                        <h3 class="footer-heading">友情链接</h3>
+                        <div class="row margin-bottom-30px">
+                            <div class="col-xs-4">
+                                <ul class="list-unstyled footer-nav">
+                                    <li><a href="#">数维科技</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-4">
+                                <ul class="list-unstyled footer-nav">
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">G+</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-4">
+                                <ul class="list-unstyled footer-nav">
+                                    <li><a href="#">Microsoft</a></li>
+                                    @*<li><a href="#">FAQ</a></li>*@
+                                </ul>
+                            </div>
+                        </div>
+                        @* END 2 *@
+                        @* 底部第二模块结束 *@
+                        </div>
                     <div class="col-md-4">
-                        <!-- COLUMN 3 -->
+                        @* 底部第三模块 *@
                         <div class="newsletter">
-                            <h3 class="footer-heading">NEWSLETTER</h3>
-                            <p>Get the latest update from us by subscribing to our newsletter.</p>
+                            <h3 class="footer-heading">你的邮箱</h3>
+                            <p>如果你有意的话，请你留下你的邮箱，让我们知道你的到来.</p>
                             <form class="newsletter-form" method="POST">
                                 <div class="input-group input-group-lg">
-                                    <input type="email" class="form-control" name="email" placeholder="youremail@domain.com">
-                                    <span class="input-group-btn"><button class="btn btn-primary" type="button">SUBSCRIBE</button></span>
+                                    <input type="email" class="form-control" name="email" placeholder="googleguide@Gmail.com">
+                                    <span class="input-group-btn"><button class="btn btn-primary" type="button">发送</button></span>
                                 </div>
                                 <div class="alert"></div>
                             </form>
                         </div>
                         <div class="social-connect">
-                            <h3 class="footer-heading">GET CONNECTED</h3>
+                            <h3 class="footer-heading">公开的我们</h3>
                             <ul class="list-inline social-icons">
-                                <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" class="googleplus-bg"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#" class="rss-bg"><i class="fa fa-rss"></i></a></li>
+                                <li><a href="https://www.facebook.com/evilrabbit520" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/evilrabbit520" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://plus.google.com/u/0/105555536204215536737" class="googleplus-bg"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="https://weibo.com/u/5818934065/home" class="rss-bg"><i class="fa fa-weibo"></i></a></li>
                             </ul>
                         </div>
-                        <!-- END COLUMN 3 -->
+                        @* 底部第三模块结束 *@
                     </div>
                 </div>
             </div>
         </footer>
         <!-- END FOOTER -->
-    </div>
     <!-- END WRAPPER -->
-    <!-- JAVASCRIPTS -->
+
+    @*JAVASCRIPTS*@
     <script src="~/Content/js/Article/jquery-2.1.1.min.js"></script>
     <script src="~/Content/js/Article/bootstrap.min.js"></script>
     <script src="~/Content/js/Article/slick.min.js"></script>

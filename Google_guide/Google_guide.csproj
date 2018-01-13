@@ -97,9 +97,9 @@
     <Content Include="Content\css\Featured_articles\style.css" />
     <Content Include="Content\css\Index\animate.min.css" />
     <Content Include="Content\images\Article\free.png" />
+    <Content Include="Content\images\Article\google.png" />
     <Content Include="Content\images\Article\hero-unit-obj.png" />
     <Content Include="Content\images\Article\hero-unit-obj3.png" />
-    <Content Include="Content\images\Article\intro-img.png" />
     <Content Include="Content\images\Article\clients_logo\logo1.png" />
     <Content Include="Content\images\Article\clients_logo\logo2.png" />
     <Content Include="Content\images\Article\clients_logo\logo3.png" />

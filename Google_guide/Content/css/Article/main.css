@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /* ----------------------------------------------------- */
 /* GENERAL STYLES
@@ -40,7 +40,20 @@ button:hover {
 hr {
   border-color: #eaeaea;
 }
+A:link {
+    text-decoration: none;
+    color: Blue;
+}
 
+A:active {
+    text-decoration: none;
+    color: Blue;
+}
+
+A:hover {
+    text-decoration: underline;
+    color: Blue;
+} 
 /* wrapper */
 .wrapper {
   background: #fff;
@@ -91,6 +104,7 @@ hr {
 .rss-bg {
   background-color: #ff6600;
 }
+
 
 /* page header */
 .page-header {
