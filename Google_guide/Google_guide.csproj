@@ -96,6 +96,8 @@
     <Content Include="Content\css\Featured_articles\amazeui.css" />
     <Content Include="Content\css\Featured_articles\style.css" />
     <Content Include="Content\css\Index\animate.min.css" />
+    <Content Include="Content\css\Recruitment\amazeui.css" />
+    <Content Include="Content\css\Recruitment\style.css" />
     <Content Include="Content\images\Article\free.png" />
     <Content Include="Content\images\Article\google.png" />
     <Content Include="Content\images\Article\hero-unit-obj.png" />
@@ -141,18 +143,20 @@
     <Content Include="Content\images\Index\dd-arrow.png" />
     <Content Include="Content\images\Index\freebie-03.jpg" />
     <Content Include="Content\images\Index\freebie-04.jpg" />
-    <Content Include="Content\images\public\Glogo.png" />
+    <Content Include="Content\images\Public\Glogo.png" />
     <Content Include="Content\images\Index\home_main_1.jpg" />
     <Content Include="Content\images\Index\home_main_3.jpg" />
     <Content Include="Content\images\Index\home_main_2.jpg" />
     <Content Include="Content\images\Index\landio-freebie.jpg" />
-    <Content Include="Content\images\public\logo1.png" />
-    <Content Include="Content\images\public\QR_code_qun.jpg" />
+    <Content Include="Content\images\Public\logo1.png" />
+    <Content Include="Content\images\Public\QR_code_qun.jpg" />
     <Content Include="Content\images\Index\sedna-freebie.jpg" />
     <Content Include="Content\images\Index\stats-bg.jpg" />
-    <Content Include="Content\images\public\logo.png" />
+    <Content Include="Content\images\Public\logo.png" />
     <Content Include="Content\images\Index\beijingtu.png" />
     <Content Include="Content\images\Index\video-cover.jpg" />
+    <Content Include="Content\images\Recruitment\zhaoping1.png" />
+    <Content Include="Content\images\Recruitment\zhaoping2.png" />
     <Content Include="Content\js\Article\bootstrap.min.js" />
     <Content Include="Content\js\Article\jquery-2.1.1.min.js" />
     <Content Include="Content\js\Article\jquery.stellar.min.js" />
@@ -170,6 +174,8 @@
     <Content Include="Content\js\Index\min\scripts-min.js" />
     <Content Include="Content\js\Index\scripts.js" />
     <Content Include="Content\js\Index\video.min.js" />
+    <Content Include="Content\js\Recruitment\amazeui.min.js" />
+    <Content Include="Content\js\Recruitment\jquery.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -192,6 +198,7 @@
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Views\Home\Article_Google_1.cshtml" />
+    <Content Include="Views\Home\Recruitment.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
