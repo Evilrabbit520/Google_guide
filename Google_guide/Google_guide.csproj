@@ -135,6 +135,7 @@
     <Content Include="Content\css\Index\styles.css" />
     <Content Include="Content\images\Featured_articles\bg-pic2.png" />
     <Content Include="Content\images\Featured_articles\bg-pic3.png" />
+    <Content Include="Content\images\Featured_articles\google.png" />
     <Content Include="Content\images\Featured_articles\ios.png" />
     <Content Include="Content\images\Index\crew-blaz-robar.jpg" />
     <Content Include="Content\images\Index\crew-dude.jpg" />
@@ -192,6 +193,7 @@
     <Content Include="Content\css\Index\fonts\Stroke-Gap-Icons.eot" />
     <Content Include="Content\css\Index\fonts\Stroke-Gap-Icons.ttf" />
     <Content Include="Content\css\Index\fonts\Stroke-Gap-Icons.woff" />
+    <Content Include="Content\Download\投职个人简历单.doc" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Featured_articles.cshtml" />
@@ -199,6 +201,7 @@
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Views\Home\Article_Google_1.cshtml" />
     <Content Include="Views\Home\Recruitment.cshtml" />
+    <Content Include="Views\Home\Agreement.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

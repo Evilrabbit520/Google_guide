@@ -25,5 +25,9 @@ namespace Google_guide.Controllers
         {
             return View();
         }
+        public ActionResult Agreement()     //用户协议
+        {
+            return View();
+        }
     }
 }
