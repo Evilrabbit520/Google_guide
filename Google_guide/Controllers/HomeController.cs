@@ -29,5 +29,11 @@ namespace Google_guide.Controllers
         {
             return View();
         }
+        /*以下内容为后端界面*/
+        public ActionResult Backstage()      //后台首页
+        {
+            return View();
+
+        }
     }
 }
