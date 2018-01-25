@@ -29,5 +29,9 @@ namespace Google_guide.Controllers
         {
             return View();
         }
+        public ActionResult Business()      //商务合作
+        {
+            return View();
+        }
     }
 }

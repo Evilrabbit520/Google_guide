@@ -202,6 +202,7 @@
     <Content Include="Views\Home\Article_Google_1.cshtml" />
     <Content Include="Views\Home\Recruitment.cshtml" />
     <Content Include="Views\Home\Agreement.cshtml" />
+    <Content Include="Views\Home\Business.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -212,6 +213,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\css\Business\" />
+    <Folder Include="Content\images\Business\" />
+    <Folder Include="Content\js\Business\" />
     <Folder Include="Content\music\" />
     <Folder Include="Models\" />
   </ItemGroup>
