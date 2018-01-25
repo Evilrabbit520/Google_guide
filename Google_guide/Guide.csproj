@@ -202,7 +202,6 @@
     <Content Include="Views\Home\Article_Google_1.cshtml" />
     <Content Include="Views\Home\Recruitment.cshtml" />
     <Content Include="Views\Home\Agreement.cshtml" />
-    <Content Include="Views\Home\Backstage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
